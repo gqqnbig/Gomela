@@ -14,7 +14,7 @@ This aim is that you are able to:
 
 To use Gomela, there are two main requirement:
 
-The first one is Go, which can downloaded [here](https://golang.org/dl/).
+The first one is Go 1.15, which can downloaded [here](https://golang.org/dl/).
 After running the installation, Go will be installed in your home folder.
 The second requirement is SPIN. The manual for installation on various OS
 can be found [here](http://spinroot.com/spin/Man/README.html#S2).
