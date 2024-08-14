@@ -407,6 +407,9 @@ func model(ver *VerificationInfo) []string {
 
 		path := flag.Arg(1)
 		// PROJECTS_FOLDER = path
+		if strings.Contains(path, "~") {
+			panic("Gomela does not perform tilda (~) expansion for " + path + ".")
+		}
 
 		_, err := ioutil.ReadDir(path)
 
