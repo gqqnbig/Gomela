@@ -48,6 +48,7 @@ func VerifyModels(ver_info *VerificationInfo, models []os.FileInfo, dir_name str
 
 	if err != nil {
 		fmt.Println("Could not open file verification.csv")
+		fmt.Println(err)
 		return
 	}
 
